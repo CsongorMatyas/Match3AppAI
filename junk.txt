@@ -1,0 +1,678 @@
+        self.secondrow.secondcell.bl2gr = GridLayout(cols = 5)
+
+        self.secondrow.secondcell.bl2gr.add_widget(IMage(source = self.images['Bl']))
+        self.secondrow.secondcell.bl2gr.add_widget(Label(text = '->'))
+        self.secondrow.secondcell.bl2gr.add_widget(IMage(source = self.images['Gr']))
+        self.secondrow.secondcell.bl2gr.checkbox = CheckBox(active = False)
+        self.secondrow.secondcell.bl2gr.add_widget(self.secondrow.secondcell.bl2gr.checkbox)
+        self.secondrow.secondcell.bl2gr.button = Button(text = '{}'.format(chr(9679)),
+                                                        font_size = 12,
+                                                        font_name = "FreeSans")
+        self.secondrow.secondcell.bl2gr.button.checkbox = self.secondrow.secondcell.bl2gr.checkbox
+        self.secondrow.secondcell.bl2gr.button.bind(on_press = self.Submit)
+        self.secondrow.secondcell.bl2gr.add_widget(self.secondrow.secondcell.bl2gr.button)
+        
+        self.secondrow.secondcell.add_widget(self.secondrow.secondcell.bl2gr)
+
+
+        self.secondrow.secondcell.bl2re = GridLayout(cols = 5)
+
+        self.secondrow.secondcell.bl2re.add_widget(IMage(source = self.images['Bl']))
+        self.secondrow.secondcell.bl2re.add_widget(Label(text = '->'))
+        self.secondrow.secondcell.bl2re.add_widget(IMage(source = self.images['Re']))
+        self.secondrow.secondcell.bl2re.checkbox = CheckBox(active = False)
+        self.secondrow.secondcell.bl2re.add_widget(self.secondrow.secondcell.bl2re.checkbox)
+        self.secondrow.secondcell.bl2re.button = Button(text = '{}'.format(chr(9679)),
+                                                        font_size = 12,
+                                                        font_name = "FreeSans")
+        self.secondrow.secondcell.bl2re.button.checkbox = self.secondrow.secondcell.bl2re.checkbox
+        self.secondrow.secondcell.bl2re.button.bind(on_press = self.Submit)
+        self.secondrow.secondcell.bl2re.add_widget(self.secondrow.secondcell.bl2re.button)
+        
+        self.secondrow.secondcell.add_widget(self.secondrow.secondcell.bl2re)
+
+
+        self.secondrow.secondcell.bl2ye = GridLayout(cols = 5)
+
+        self.secondrow.secondcell.bl2ye.add_widget(IMage(source = self.images['Bl']))
+        self.secondrow.secondcell.bl2ye.add_widget(Label(text = '->'))
+        self.secondrow.secondcell.bl2ye.add_widget(IMage(source = self.images['Ye']))
+        self.secondrow.secondcell.bl2ye.checkbox = CheckBox(active = False)
+        self.secondrow.secondcell.bl2ye.add_widget(self.secondrow.secondcell.bl2ye.checkbox)
+        self.secondrow.secondcell.bl2ye.button = Button(text = '{}'.format(chr(9679)),
+                                                        font_size = 12,
+                                                        font_name = "FreeSans")
+        self.secondrow.secondcell.bl2ye.button.checkbox = self.secondrow.secondcell.bl2ye.checkbox
+        self.secondrow.secondcell.bl2ye.button.bind(on_press = self.Submit)
+        self.secondrow.secondcell.bl2ye.add_widget(self.secondrow.secondcell.bl2ye.button)
+        
+        self.secondrow.secondcell.add_widget(self.secondrow.secondcell.bl2ye)
+
+
+        self.secondrow.secondcell.bl2pu = GridLayout(cols = 5)
+
+        self.secondrow.secondcell.bl2pu.add_widget(IMage(source = self.images['Bl']))
+        self.secondrow.secondcell.bl2pu.add_widget(Label(text = '->'))
+        self.secondrow.secondcell.bl2pu.add_widget(IMage(source = self.images['Pu']))
+        self.secondrow.secondcell.bl2pu.checkbox = CheckBox(active = False)
+        self.secondrow.secondcell.bl2pu.add_widget(self.secondrow.secondcell.bl2pu.checkbox)
+        self.secondrow.secondcell.bl2pu.button = Button(text = '{}'.format(chr(9679)),
+                                                        font_size = 12,
+                                                        font_name = "FreeSans")
+        self.secondrow.secondcell.bl2pu.button.checkbox = self.secondrow.secondcell.bl2pu.checkbox
+        self.secondrow.secondcell.bl2pu.button.bind(on_press = self.Submit)
+        self.secondrow.secondcell.bl2pu.add_widget(self.secondrow.secondcell.bl2pu.button)
+        
+        self.secondrow.secondcell.add_widget(self.secondrow.secondcell.bl2pu)
+
+
+        self.secondrow.secondcell.bl2br = GridLayout(cols = 5)
+
+        self.secondrow.secondcell.bl2br.add_widget(IMage(source = self.images['Bl']))
+        self.secondrow.secondcell.bl2br.add_widget(Label(text = '->'))
+        self.secondrow.secondcell.bl2br.add_widget(IMage(source = self.images['Br']))
+        self.secondrow.secondcell.bl2br.checkbox = CheckBox(active = False)
+        self.secondrow.secondcell.bl2br.add_widget(self.secondrow.secondcell.bl2br.checkbox)
+        self.secondrow.secondcell.bl2br.button = Button(text = '{}'.format(chr(9679)),
+                                                        font_size = 12,
+                                                        font_name = "FreeSans")
+        self.secondrow.secondcell.bl2br.button.checkbox = self.secondrow.secondcell.bl2br.checkbox
+        self.secondrow.secondcell.bl2br.button.bind(on_press = self.Submit)
+        self.secondrow.secondcell.bl2br.add_widget(self.secondrow.secondcell.bl2br.button)
+        
+        self.secondrow.secondcell.add_widget(self.secondrow.secondcell.bl2br)
+
+
+        self.secondrow.secondcell.bl2sk = GridLayout(cols = 5)
+
+        self.secondrow.secondcell.bl2sk.add_widget(IMage(source = self.images['Bl']))
+        self.secondrow.secondcell.bl2sk.add_widget(Label(text = '->'))
+        self.secondrow.secondcell.bl2sk.add_widget(IMage(source = self.images['Sk']))
+        self.secondrow.secondcell.bl2sk.checkbox = CheckBox(active = False)
+        self.secondrow.secondcell.bl2sk.add_widget(self.secondrow.secondcell.bl2sk.checkbox)
+        self.secondrow.secondcell.bl2sk.button = Button(text = '{}'.format(chr(9679)),
+                                                        font_size = 12,
+                                                        font_name = "FreeSans")
+        self.secondrow.secondcell.bl2sk.button.checkbox = self.secondrow.secondcell.bl2sk.checkbox
+        self.secondrow.secondcell.bl2sk.button.bind(on_press = self.Submit)
+        self.secondrow.secondcell.bl2sk.add_widget(self.secondrow.secondcell.bl2sk.button)
+        
+        self.secondrow.secondcell.add_widget(self.secondrow.secondcell.bl2sk)
+
+        '''
+        self.secondrow.secondcell.bl2an = GridLayout(cols = 5)
+
+        self.secondrow.secondcell.bl2an.add_widget(IMage(source = self.images['Bl']))
+        self.secondrow.secondcell.bl2an.add_widget(Label(text = '->'))
+        self.secondrow.secondcell.bl2an.add_widget(IMage(source = self.images['Any']))
+        self.secondrow.secondcell.bl2an.checkbox = CheckBox(active = False)
+        self.secondrow.secondcell.bl2an.add_widget(self.secondrow.secondcell.bl2an.checkbox)
+        self.secondrow.secondcell.bl2an.button = Button(text = '{}'.format(chr(9679)),
+                                                        font_size = 12,
+                                                        font_name = "FreeSans")
+        self.secondrow.secondcell.bl2an.button.checkbox = self.secondrow.secondcell.bl2an.checkbox
+        self.secondrow.secondcell.bl2an.button.bind(on_press = self.Submit)
+        self.secondrow.secondcell.bl2an.add_widget(self.secondrow.secondcell.bl2an.button)
+        
+        self.secondrow.secondcell.add_widget(self.secondrow.secondcell.bl2an)
+
+        
+        self.secondrow.secondcell.gr2bl = GridLayout(cols = 5)
+
+        self.secondrow.secondcell.gr2bl.add_widget(IMage(source = self.images['Gr']))
+        self.secondrow.secondcell.gr2bl.add_widget(Label(text = '->'))
+        self.secondrow.secondcell.gr2bl.add_widget(IMage(source = self.images['Bl']))
+        self.secondrow.secondcell.gr2bl.checkbox = CheckBox(active = False)
+        self.secondrow.secondcell.gr2bl.add_widget(self.secondrow.secondcell.gr2bl.checkbox)
+        self.secondrow.secondcell.gr2bl.button = Button(text = '{}'.format(chr(9679)),
+                                                        font_size = 12,
+                                                        font_name = "FreeSans")
+        self.secondrow.secondcell.gr2bl.button.checkbox = self.secondrow.secondcell.gr2bl.checkbox
+        self.secondrow.secondcell.gr2bl.button.bind(on_press = self.Submit)
+        self.secondrow.secondcell.gr2bl.add_widget(self.secondrow.secondcell.gr2bl.button)
+        
+        self.secondrow.secondcell.add_widget(self.secondrow.secondcell.gr2bl)
+        '''
+
+        self.secondrow.secondcell.gr2re = GridLayout(cols = 5)
+
+        self.secondrow.secondcell.gr2re.add_widget(IMage(source = self.images['Gr']))
+        self.secondrow.secondcell.gr2re.add_widget(Label(text = '->'))
+        self.secondrow.secondcell.gr2re.add_widget(IMage(source = self.images['Re']))
+        self.secondrow.secondcell.gr2re.checkbox = CheckBox(active = False)
+        self.secondrow.secondcell.gr2re.add_widget(self.secondrow.secondcell.gr2re.checkbox)
+        self.secondrow.secondcell.gr2re.button = Button(text = '{}'.format(chr(9679)),
+                                                        font_size = 12,
+                                                        font_name = "FreeSans")
+        self.secondrow.secondcell.gr2re.button.checkbox = self.secondrow.secondcell.gr2re.checkbox
+        self.secondrow.secondcell.gr2re.button.bind(on_press = self.Submit)
+        self.secondrow.secondcell.gr2re.add_widget(self.secondrow.secondcell.gr2re.button)
+        
+        self.secondrow.secondcell.add_widget(self.secondrow.secondcell.gr2re)
+
+
+        self.secondrow.secondcell.gr2ye = GridLayout(cols = 5)
+
+        self.secondrow.secondcell.gr2ye.add_widget(IMage(source = self.images['Gr']))
+        self.secondrow.secondcell.gr2ye.add_widget(Label(text = '->'))
+        self.secondrow.secondcell.gr2ye.add_widget(IMage(source = self.images['Ye']))
+        self.secondrow.secondcell.gr2ye.checkbox = CheckBox(active = False)
+        self.secondrow.secondcell.gr2ye.add_widget(self.secondrow.secondcell.gr2ye.checkbox)
+        self.secondrow.secondcell.gr2ye.button = Button(text = '{}'.format(chr(9679)),
+                                                        font_size = 12,
+                                                        font_name = "FreeSans")
+        self.secondrow.secondcell.gr2ye.button.checkbox = self.secondrow.secondcell.gr2ye.checkbox
+        self.secondrow.secondcell.gr2ye.button.bind(on_press = self.Submit)
+        self.secondrow.secondcell.gr2ye.add_widget(self.secondrow.secondcell.gr2ye.button)
+        
+        self.secondrow.secondcell.add_widget(self.secondrow.secondcell.gr2ye)
+
+
+        self.secondrow.secondcell.gr2pu = GridLayout(cols = 5)
+
+        self.secondrow.secondcell.gr2pu.add_widget(IMage(source = self.images['Gr']))
+        self.secondrow.secondcell.gr2pu.add_widget(Label(text = '->'))
+        self.secondrow.secondcell.gr2pu.add_widget(IMage(source = self.images['Pu']))
+        self.secondrow.secondcell.gr2pu.checkbox = CheckBox(active = False)
+        self.secondrow.secondcell.gr2pu.add_widget(self.secondrow.secondcell.gr2pu.checkbox)
+        self.secondrow.secondcell.gr2pu.button = Button(text = '{}'.format(chr(9679)),
+                                                        font_size = 12,
+                                                        font_name = "FreeSans")
+        self.secondrow.secondcell.gr2pu.button.checkbox = self.secondrow.secondcell.gr2pu.checkbox
+        self.secondrow.secondcell.gr2pu.button.bind(on_press = self.Submit)
+        self.secondrow.secondcell.gr2pu.add_widget(self.secondrow.secondcell.gr2pu.button)
+        
+        self.secondrow.secondcell.add_widget(self.secondrow.secondcell.gr2pu)
+
+
+        self.secondrow.secondcell.gr2br = GridLayout(cols = 5)
+
+        self.secondrow.secondcell.gr2br.add_widget(IMage(source = self.images['Gr']))
+        self.secondrow.secondcell.gr2br.add_widget(Label(text = '->'))
+        self.secondrow.secondcell.gr2br.add_widget(IMage(source = self.images['Br']))
+        self.secondrow.secondcell.gr2br.checkbox = CheckBox(active = False)
+        self.secondrow.secondcell.gr2br.add_widget(self.secondrow.secondcell.gr2br.checkbox)
+        self.secondrow.secondcell.gr2br.button = Button(text = '{}'.format(chr(9679)),
+                                                        font_size = 12,
+                                                        font_name = "FreeSans")
+        self.secondrow.secondcell.gr2br.button.checkbox = self.secondrow.secondcell.gr2br.checkbox
+        self.secondrow.secondcell.gr2br.button.bind(on_press = self.Submit)
+        self.secondrow.secondcell.gr2br.add_widget(self.secondrow.secondcell.gr2br.button)
+        
+        self.secondrow.secondcell.add_widget(self.secondrow.secondcell.gr2br)
+
+
+        self.secondrow.secondcell.gr2sk = GridLayout(cols = 5)
+
+        self.secondrow.secondcell.gr2sk.add_widget(IMage(source = self.images['Gr']))
+        self.secondrow.secondcell.gr2sk.add_widget(Label(text = '->'))
+        self.secondrow.secondcell.gr2sk.add_widget(IMage(source = self.images['Sk']))
+        self.secondrow.secondcell.gr2sk.checkbox = CheckBox(active = False)
+        self.secondrow.secondcell.gr2sk.add_widget(self.secondrow.secondcell.gr2sk.checkbox)
+        self.secondrow.secondcell.gr2sk.button = Button(text = '{}'.format(chr(9679)),
+                                                        font_size = 12,
+                                                        font_name = "FreeSans")
+        self.secondrow.secondcell.gr2sk.button.checkbox = self.secondrow.secondcell.gr2sk.checkbox
+        self.secondrow.secondcell.gr2sk.button.bind(on_press = self.Submit)
+        self.secondrow.secondcell.gr2sk.add_widget(self.secondrow.secondcell.gr2sk.button)
+        
+        self.secondrow.secondcell.add_widget(self.secondrow.secondcell.gr2sk)
+
+        '''
+        self.secondrow.secondcell.re2bl = GridLayout(cols = 5)
+
+        self.secondrow.secondcell.re2bl.add_widget(IMage(source = self.images['Re']))
+        self.secondrow.secondcell.re2bl.add_widget(Label(text = '->'))
+        self.secondrow.secondcell.re2bl.add_widget(IMage(source = self.images['Bl']))
+        self.secondrow.secondcell.re2bl.checkbox = CheckBox(active = False)
+        self.secondrow.secondcell.re2bl.add_widget(self.secondrow.secondcell.re2bl.checkbox)
+        self.secondrow.secondcell.re2bl.button = Button(text = '{}'.format(chr(9679)),
+                                                        font_size = 12,
+                                                        font_name = "FreeSans")
+        self.secondrow.secondcell.re2bl.button.checkbox = self.secondrow.secondcell.re2bl.checkbox
+        self.secondrow.secondcell.re2bl.button.bind(on_press = self.Submit)
+        self.secondrow.secondcell.re2bl.add_widget(self.secondrow.secondcell.re2bl.button)
+        
+        self.secondrow.secondcell.add_widget(self.secondrow.secondcell.re2bl)
+
+
+        self.secondrow.secondcell.re2gr = GridLayout(cols = 5)
+
+        self.secondrow.secondcell.re2gr.add_widget(IMage(source = self.images['Re']))
+        self.secondrow.secondcell.re2gr.add_widget(Label(text = '->'))
+        self.secondrow.secondcell.re2gr.add_widget(IMage(source = self.images['Gr']))
+        self.secondrow.secondcell.re2gr.checkbox = CheckBox(active = False)
+        self.secondrow.secondcell.re2gr.add_widget(self.secondrow.secondcell.re2gr.checkbox)
+        self.secondrow.secondcell.re2gr.button = Button(text = '{}'.format(chr(9679)),
+                                                        font_size = 12,
+                                                        font_name = "FreeSans")
+        self.secondrow.secondcell.re2gr.button.checkbox = self.secondrow.secondcell.re2gr.checkbox
+        self.secondrow.secondcell.re2gr.button.bind(on_press = self.Submit)
+        self.secondrow.secondcell.re2gr.add_widget(self.secondrow.secondcell.re2gr.button)
+        
+        self.secondrow.secondcell.add_widget(self.secondrow.secondcell.re2gr)
+        '''
+
+        self.secondrow.secondcell.re2pu = GridLayout(cols = 5)
+
+        self.secondrow.secondcell.re2pu.add_widget(IMage(source = self.images['Re']))
+        self.secondrow.secondcell.re2pu.add_widget(Label(text = '->'))
+        self.secondrow.secondcell.re2pu.add_widget(IMage(source = self.images['Pu']))
+        self.secondrow.secondcell.re2pu.checkbox = CheckBox(active = False)
+        self.secondrow.secondcell.re2pu.add_widget(self.secondrow.secondcell.re2pu.checkbox)
+        self.secondrow.secondcell.re2pu.button = Button(text = '{}'.format(chr(9679)),
+                                                        font_size = 12,
+                                                        font_name = "FreeSans")
+        self.secondrow.secondcell.re2pu.button.checkbox = self.secondrow.secondcell.re2pu.checkbox
+        self.secondrow.secondcell.re2pu.button.bind(on_press = self.Submit)
+        self.secondrow.secondcell.re2pu.add_widget(self.secondrow.secondcell.re2pu.button)
+        
+        self.secondrow.secondcell.add_widget(self.secondrow.secondcell.re2pu)
+
+
+        self.secondrow.secondcell.re2br = GridLayout(cols = 5)
+
+        self.secondrow.secondcell.re2br.add_widget(IMage(source = self.images['Re']))
+        self.secondrow.secondcell.re2br.add_widget(Label(text = '->'))
+        self.secondrow.secondcell.re2br.add_widget(IMage(source = self.images['Br']))
+        self.secondrow.secondcell.re2br.checkbox = CheckBox(active = False)
+        self.secondrow.secondcell.re2br.add_widget(self.secondrow.secondcell.re2br.checkbox)
+        self.secondrow.secondcell.re2br.button = Button(text = '{}'.format(chr(9679)),
+                                                        font_size = 12,
+                                                        font_name = "FreeSans")
+        self.secondrow.secondcell.re2br.button.checkbox = self.secondrow.secondcell.re2br.checkbox
+        self.secondrow.secondcell.re2br.button.bind(on_press = self.Submit)
+        self.secondrow.secondcell.re2br.add_widget(self.secondrow.secondcell.re2br.button)
+        
+        self.secondrow.secondcell.add_widget(self.secondrow.secondcell.re2br)
+
+
+        self.secondrow.secondcell.re2sk = GridLayout(cols = 5)
+
+        self.secondrow.secondcell.re2sk.add_widget(IMage(source = self.images['Re']))
+        self.secondrow.secondcell.re2sk.add_widget(Label(text = '->'))
+        self.secondrow.secondcell.re2sk.add_widget(IMage(source = self.images['Sk']))
+        self.secondrow.secondcell.re2sk.checkbox = CheckBox(active = False)
+        self.secondrow.secondcell.re2sk.add_widget(self.secondrow.secondcell.re2sk.checkbox)
+        self.secondrow.secondcell.re2sk.button = Button(text = '{}'.format(chr(9679)),
+                                                        font_size = 12,
+                                                        font_name = "FreeSans")
+        self.secondrow.secondcell.re2sk.button.checkbox = self.secondrow.secondcell.re2sk.checkbox
+        self.secondrow.secondcell.re2sk.button.bind(on_press = self.Submit)
+        self.secondrow.secondcell.re2sk.add_widget(self.secondrow.secondcell.re2sk.button)
+        
+        self.secondrow.secondcell.add_widget(self.secondrow.secondcell.re2sk)
+
+        '''
+        self.secondrow.secondcell.ye2bl = GridLayout(cols = 5)
+
+        self.secondrow.secondcell.ye2bl.add_widget(IMage(source = self.images['Ye']))
+        self.secondrow.secondcell.ye2bl.add_widget(Label(text = '->'))
+        self.secondrow.secondcell.ye2bl.add_widget(IMage(source = self.images['Bl']))
+        self.secondrow.secondcell.ye2bl.checkbox = CheckBox(active = False)
+        self.secondrow.secondcell.ye2bl.add_widget(self.secondrow.secondcell.ye2bl.checkbox)
+        self.secondrow.secondcell.ye2bl.button = Button(text = '{}'.format(chr(9679)),
+                                                        font_size = 12,
+                                                        font_name = "FreeSans")
+        self.secondrow.secondcell.ye2bl.button.checkbox = self.secondrow.secondcell.ye2bl.checkbox
+        self.secondrow.secondcell.ye2bl.button.bind(on_press = self.Submit)
+        self.secondrow.secondcell.ye2bl.add_widget(self.secondrow.secondcell.ye2bl.button)
+        
+        self.secondrow.secondcell.add_widget(self.secondrow.secondcell.ye2bl)
+        '''
+
+        self.secondrow.secondcell.ye2re = GridLayout(cols = 5)
+
+        self.secondrow.secondcell.ye2re.add_widget(IMage(source = self.images['Ye']))
+        self.secondrow.secondcell.ye2re.add_widget(Label(text = '->'))
+        self.secondrow.secondcell.ye2re.add_widget(IMage(source = self.images['Re']))
+        self.secondrow.secondcell.ye2re.checkbox = CheckBox(active = False)
+        self.secondrow.secondcell.ye2re.add_widget(self.secondrow.secondcell.ye2re.checkbox)
+        self.secondrow.secondcell.ye2re.button = Button(text = '{}'.format(chr(9679)),
+                                                        font_size = 12,
+                                                        font_name = "FreeSans")
+        self.secondrow.secondcell.ye2re.button.checkbox = self.secondrow.secondcell.ye2re.checkbox
+        self.secondrow.secondcell.ye2re.button.bind(on_press = self.Submit)
+        self.secondrow.secondcell.ye2re.add_widget(self.secondrow.secondcell.ye2re.button)
+        
+        self.secondrow.secondcell.add_widget(self.secondrow.secondcell.ye2re)
+
+
+        self.secondrow.secondcell.ye2pu = GridLayout(cols = 5)
+
+        self.secondrow.secondcell.ye2pu.add_widget(IMage(source = self.images['Ye']))
+        self.secondrow.secondcell.ye2pu.add_widget(Label(text = '->'))
+        self.secondrow.secondcell.ye2pu.add_widget(IMage(source = self.images['Pu']))
+        self.secondrow.secondcell.ye2pu.checkbox = CheckBox(active = False)
+        self.secondrow.secondcell.ye2pu.add_widget(self.secondrow.secondcell.ye2pu.checkbox)
+        self.secondrow.secondcell.ye2pu.button = Button(text = '{}'.format(chr(9679)),
+                                                        font_size = 12,
+                                                        font_name = "FreeSans")
+        self.secondrow.secondcell.ye2pu.button.checkbox = self.secondrow.secondcell.ye2pu.checkbox
+        self.secondrow.secondcell.ye2pu.button.bind(on_press = self.Submit)
+        self.secondrow.secondcell.ye2pu.add_widget(self.secondrow.secondcell.ye2pu.button)
+        
+        self.secondrow.secondcell.add_widget(self.secondrow.secondcell.ye2pu)
+
+
+        self.secondrow.secondcell.ye2br = GridLayout(cols = 5)
+
+        self.secondrow.secondcell.ye2br.add_widget(IMage(source = self.images['Ye']))
+        self.secondrow.secondcell.ye2br.add_widget(Label(text = '->'))
+        self.secondrow.secondcell.ye2br.add_widget(IMage(source = self.images['Br']))
+        self.secondrow.secondcell.ye2br.checkbox = CheckBox(active = False)
+        self.secondrow.secondcell.ye2br.add_widget(self.secondrow.secondcell.ye2br.checkbox)
+        self.secondrow.secondcell.ye2br.button = Button(text = '{}'.format(chr(9679)),
+                                                        font_size = 12,
+                                                        font_name = "FreeSans")
+        self.secondrow.secondcell.ye2br.button.checkbox = self.secondrow.secondcell.ye2br.checkbox
+        self.secondrow.secondcell.ye2br.button.bind(on_press = self.Submit)
+        self.secondrow.secondcell.ye2br.add_widget(self.secondrow.secondcell.ye2br.button)
+        
+        self.secondrow.secondcell.add_widget(self.secondrow.secondcell.ye2br)
+
+
+        self.secondrow.secondcell.ye2sk = GridLayout(cols = 5)
+
+        self.secondrow.secondcell.ye2sk.add_widget(IMage(source = self.images['Ye']))
+        self.secondrow.secondcell.ye2sk.add_widget(Label(text = '->'))
+        self.secondrow.secondcell.ye2sk.add_widget(IMage(source = self.images['Sk']))
+        self.secondrow.secondcell.ye2sk.checkbox = CheckBox(active = False)
+        self.secondrow.secondcell.ye2sk.add_widget(self.secondrow.secondcell.ye2sk.checkbox)
+        self.secondrow.secondcell.ye2sk.button = Button(text = '{}'.format(chr(9679)),
+                                                        font_size = 12,
+                                                        font_name = "FreeSans")
+        self.secondrow.secondcell.ye2sk.button.checkbox = self.secondrow.secondcell.ye2sk.checkbox
+        self.secondrow.secondcell.ye2sk.button.bind(on_press = self.Submit)
+        self.secondrow.secondcell.ye2sk.add_widget(self.secondrow.secondcell.ye2sk.button)
+        
+        self.secondrow.secondcell.add_widget(self.secondrow.secondcell.ye2sk)
+
+        '''
+        self.secondrow.secondcell.ye2an = GridLayout(cols = 5)
+
+        self.secondrow.secondcell.ye2an.add_widget(IMage(source = self.images['Ye']))
+        self.secondrow.secondcell.ye2an.add_widget(Label(text = '->'))
+        self.secondrow.secondcell.ye2an.add_widget(IMage(source = self.images['Any']))
+        self.secondrow.secondcell.ye2an.checkbox = CheckBox(active = False)
+        self.secondrow.secondcell.ye2an.add_widget(self.secondrow.secondcell.ye2an.checkbox)
+        self.secondrow.secondcell.ye2an.button = Button(text = '{}'.format(chr(9679)),
+                                                        font_size = 12,
+                                                        font_name = "FreeSans")
+        self.secondrow.secondcell.ye2an.button.checkbox = self.secondrow.secondcell.ye2an.checkbox
+        self.secondrow.secondcell.ye2an.button.bind(on_press = self.Submit)
+        self.secondrow.secondcell.ye2an.add_widget(self.secondrow.secondcell.ye2an.button)
+        
+        self.secondrow.secondcell.add_widget(self.secondrow.secondcell.ye2an)
+
+        
+        self.secondrow.secondcell.pu2bl = GridLayout(cols = 5)
+
+        self.secondrow.secondcell.pu2bl.add_widget(IMage(source = self.images['Pu']))
+        self.secondrow.secondcell.pu2bl.add_widget(Label(text = '->'))
+        self.secondrow.secondcell.pu2bl.add_widget(IMage(source = self.images['Bl']))
+        self.secondrow.secondcell.pu2bl.checkbox = CheckBox(active = False)
+        self.secondrow.secondcell.pu2bl.add_widget(self.secondrow.secondcell.pu2bl.checkbox)
+        self.secondrow.secondcell.pu2bl.button = Button(text = '{}'.format(chr(9679)),
+                                                        font_size = 12,
+                                                        font_name = "FreeSans")
+        self.secondrow.secondcell.pu2bl.button.checkbox = self.secondrow.secondcell.pu2bl.checkbox
+        self.secondrow.secondcell.pu2bl.button.bind(on_press = self.Submit)
+        self.secondrow.secondcell.pu2bl.add_widget(self.secondrow.secondcell.pu2bl.button)
+        
+        self.secondrow.secondcell.add_widget(self.secondrow.secondcell.pu2bl)
+
+
+        self.secondrow.secondcell.pu2re = GridLayout(cols = 5)
+
+        self.secondrow.secondcell.pu2re.add_widget(IMage(source = self.images['Pu']))
+        self.secondrow.secondcell.pu2re.add_widget(Label(text = '->'))
+        self.secondrow.secondcell.pu2re.add_widget(IMage(source = self.images['Re']))
+        self.secondrow.secondcell.pu2re.checkbox = CheckBox(active = False)
+        self.secondrow.secondcell.pu2re.add_widget(self.secondrow.secondcell.pu2re.checkbox)
+        self.secondrow.secondcell.pu2re.button = Button(text = '{}'.format(chr(9679)),
+                                                        font_size = 12,
+                                                        font_name = "FreeSans")
+        self.secondrow.secondcell.pu2re.button.checkbox = self.secondrow.secondcell.pu2re.checkbox
+        self.secondrow.secondcell.pu2re.button.bind(on_press = self.Submit)
+        self.secondrow.secondcell.pu2re.add_widget(self.secondrow.secondcell.pu2re.button)
+        
+        self.secondrow.secondcell.add_widget(self.secondrow.secondcell.pu2re)
+
+
+        self.secondrow.secondcell.pu2ye = GridLayout(cols = 5)
+
+        self.secondrow.secondcell.pu2ye.add_widget(IMage(source = self.images['Pu']))
+        self.secondrow.secondcell.pu2ye.add_widget(Label(text = '->'))
+        self.secondrow.secondcell.pu2ye.add_widget(IMage(source = self.images['Ye']))
+        self.secondrow.secondcell.pu2ye.checkbox = CheckBox(active = False)
+        self.secondrow.secondcell.pu2ye.add_widget(self.secondrow.secondcell.pu2ye.checkbox)
+        self.secondrow.secondcell.pu2ye.button = Button(text = '{}'.format(chr(9679)),
+                                                        font_size = 12,
+                                                        font_name = "FreeSans")
+        self.secondrow.secondcell.pu2ye.button.checkbox = self.secondrow.secondcell.pu2ye.checkbox
+        self.secondrow.secondcell.pu2ye.button.bind(on_press = self.Submit)
+        self.secondrow.secondcell.pu2ye.add_widget(self.secondrow.secondcell.pu2ye.button)
+        
+        self.secondrow.secondcell.add_widget(self.secondrow.secondcell.pu2ye)
+        '''
+
+        self.secondrow.secondcell.pu2sk = GridLayout(cols = 5)
+
+        self.secondrow.secondcell.pu2sk.add_widget(IMage(source = self.images['Pu']))
+        self.secondrow.secondcell.pu2sk.add_widget(Label(text = '->'))
+        self.secondrow.secondcell.pu2sk.add_widget(IMage(source = self.images['Sk']))
+        self.secondrow.secondcell.pu2sk.checkbox = CheckBox(active = False)
+        self.secondrow.secondcell.pu2sk.add_widget(self.secondrow.secondcell.pu2sk.checkbox)
+        self.secondrow.secondcell.pu2sk.button = Button(text = '{}'.format(chr(9679)),
+                                                        font_size = 12,
+                                                        font_name = "FreeSans")
+        self.secondrow.secondcell.pu2sk.button.checkbox = self.secondrow.secondcell.pu2sk.checkbox
+        self.secondrow.secondcell.pu2sk.button.bind(on_press = self.Submit)
+        self.secondrow.secondcell.pu2sk.add_widget(self.secondrow.secondcell.pu2sk.button)
+        
+        self.secondrow.secondcell.add_widget(self.secondrow.secondcell.pu2sk)
+
+        '''
+        self.secondrow.secondcell.br2gr = GridLayout(cols = 5)
+
+        self.secondrow.secondcell.br2gr.add_widget(IMage(source = self.images['Br']))
+        self.secondrow.secondcell.br2gr.add_widget(Label(text = '->'))
+        self.secondrow.secondcell.br2gr.add_widget(IMage(source = self.images['Gr']))
+        self.secondrow.secondcell.br2gr.checkbox = CheckBox(active = False)
+        self.secondrow.secondcell.br2gr.add_widget(self.secondrow.secondcell.br2gr.checkbox)
+        self.secondrow.secondcell.br2gr.button = Button(text = '{}'.format(chr(9679)),
+                                                        font_size = 12,
+                                                        font_name = "FreeSans")
+        self.secondrow.secondcell.br2gr.button.checkbox = self.secondrow.secondcell.br2gr.checkbox
+        self.secondrow.secondcell.br2gr.button.bind(on_press = self.Submit)
+        self.secondrow.secondcell.br2gr.add_widget(self.secondrow.secondcell.br2gr.button)
+        
+        self.secondrow.secondcell.add_widget(self.secondrow.secondcell.br2gr)
+
+
+        self.secondrow.secondcell.br2re = GridLayout(cols = 5)
+
+        self.secondrow.secondcell.br2re.add_widget(IMage(source = self.images['Br']))
+        self.secondrow.secondcell.br2re.add_widget(Label(text = '->'))
+        self.secondrow.secondcell.br2re.add_widget(IMage(source = self.images['Re']))
+        self.secondrow.secondcell.br2re.checkbox = CheckBox(active = False)
+        self.secondrow.secondcell.br2re.add_widget(self.secondrow.secondcell.br2re.checkbox)
+        self.secondrow.secondcell.br2re.button = Button(text = '{}'.format(chr(9679)),
+                                                        font_size = 12,
+                                                        font_name = "FreeSans")
+        self.secondrow.secondcell.br2re.button.checkbox = self.secondrow.secondcell.br2re.checkbox
+        self.secondrow.secondcell.br2re.button.bind(on_press = self.Submit)
+        self.secondrow.secondcell.br2re.add_widget(self.secondrow.secondcell.br2re.button)
+        
+        self.secondrow.secondcell.add_widget(self.secondrow.secondcell.br2re)
+
+
+        self.secondrow.secondcell.br2ye = GridLayout(cols = 5)
+
+        self.secondrow.secondcell.br2ye.add_widget(IMage(source = self.images['Br']))
+        self.secondrow.secondcell.br2ye.add_widget(Label(text = '->'))
+        self.secondrow.secondcell.br2ye.add_widget(IMage(source = self.images['Ye']))
+        self.secondrow.secondcell.br2ye.checkbox = CheckBox(active = False)
+        self.secondrow.secondcell.br2ye.add_widget(self.secondrow.secondcell.br2ye.checkbox)
+        self.secondrow.secondcell.br2ye.button = Button(text = '{}'.format(chr(9679)),
+                                                        font_size = 12,
+                                                        font_name = "FreeSans")
+        self.secondrow.secondcell.br2ye.button.checkbox = self.secondrow.secondcell.br2ye.checkbox
+        self.secondrow.secondcell.br2ye.button.bind(on_press = self.Submit)
+        self.secondrow.secondcell.br2ye.add_widget(self.secondrow.secondcell.br2ye.button)
+        
+        self.secondrow.secondcell.add_widget(self.secondrow.secondcell.br2ye)
+        '''
+
+        self.secondrow.secondcell.br2sk = GridLayout(cols = 5)
+
+        self.secondrow.secondcell.br2sk.add_widget(IMage(source = self.images['Br']))
+        self.secondrow.secondcell.br2sk.add_widget(Label(text = '->'))
+        self.secondrow.secondcell.br2sk.add_widget(IMage(source = self.images['Sk']))
+        self.secondrow.secondcell.br2sk.checkbox = CheckBox(active = False)
+        self.secondrow.secondcell.br2sk.add_widget(self.secondrow.secondcell.br2sk.checkbox)
+        self.secondrow.secondcell.br2sk.button = Button(text = '{}'.format(chr(9679)),
+                                                        font_size = 12,
+                                                        font_name = "FreeSans")
+        self.secondrow.secondcell.br2sk.button.checkbox = self.secondrow.secondcell.br2sk.checkbox
+        self.secondrow.secondcell.br2sk.button.bind(on_press = self.Submit)
+        self.secondrow.secondcell.br2sk.add_widget(self.secondrow.secondcell.br2sk.button)
+        
+        self.secondrow.secondcell.add_widget(self.secondrow.secondcell.br2sk)
+
+        '''
+        self.secondrow.secondcell.sk2an = GridLayout(cols = 5)
+
+        self.secondrow.secondcell.sk2an.add_widget(IMage(source = self.images['Sk']))
+        self.secondrow.secondcell.sk2an.add_widget(Label(text = '->'))
+        self.secondrow.secondcell.sk2an.add_widget(IMage(source = self.images['Any']))
+        self.secondrow.secondcell.sk2an.checkbox = CheckBox(active = False)
+        self.secondrow.secondcell.sk2an.add_widget(self.secondrow.secondcell.sk2an.checkbox)
+        self.secondrow.secondcell.sk2an.button = Button(text = '{}'.format(chr(9679)),
+                                                        font_size = 12,
+                                                        font_name = "FreeSans")
+        self.secondrow.secondcell.sk2an.button.checkbox = self.secondrow.secondcell.sk2an.checkbox
+        self.secondrow.secondcell.sk2an.button.bind(on_press = self.Submit)
+        self.secondrow.secondcell.sk2an.add_widget(self.secondrow.secondcell.sk2an.button)
+        
+        self.secondrow.secondcell.add_widget(self.secondrow.secondcell.sk2an)
+        '''
+
+        self.secondrow.secondcell.an2bl = GridLayout(cols = 5)
+
+        self.secondrow.secondcell.an2bl.add_widget(IMage(source = self.images['Any']))
+        self.secondrow.secondcell.an2bl.add_widget(Label(text = '->'))
+        self.secondrow.secondcell.an2bl.add_widget(IMage(source = self.images['Bl']))
+        self.secondrow.secondcell.an2bl.checkbox = CheckBox(active = False)
+        self.secondrow.secondcell.an2bl.add_widget(self.secondrow.secondcell.an2bl.checkbox)
+        self.secondrow.secondcell.an2bl.button = Button(text = '{}'.format(chr(9679)),
+                                                        font_size = 12,
+                                                        font_name = "FreeSans")
+        self.secondrow.secondcell.an2bl.button.checkbox = self.secondrow.secondcell.an2bl.checkbox
+        self.secondrow.secondcell.an2bl.button.bind(on_press = self.Submit)
+        self.secondrow.secondcell.an2bl.add_widget(self.secondrow.secondcell.an2bl.button)
+        
+        self.secondrow.secondcell.add_widget(self.secondrow.secondcell.an2bl)
+
+
+        self.secondrow.secondcell.an2gr = GridLayout(cols = 5)
+
+        self.secondrow.secondcell.an2gr.add_widget(IMage(source = self.images['Any']))
+        self.secondrow.secondcell.an2gr.add_widget(Label(text = '->'))
+        self.secondrow.secondcell.an2gr.add_widget(IMage(source = self.images['Gr']))
+        self.secondrow.secondcell.an2gr.checkbox = CheckBox(active = False)
+        self.secondrow.secondcell.an2gr.add_widget(self.secondrow.secondcell.an2gr.checkbox)
+        self.secondrow.secondcell.an2gr.button = Button(text = '{}'.format(chr(9679)),
+                                                        font_size = 12,
+                                                        font_name = "FreeSans")
+        self.secondrow.secondcell.an2gr.button.checkbox = self.secondrow.secondcell.an2gr.checkbox
+        self.secondrow.secondcell.an2gr.button.bind(on_press = self.Submit)
+        self.secondrow.secondcell.an2gr.add_widget(self.secondrow.secondcell.an2gr.button)
+        
+        self.secondrow.secondcell.add_widget(self.secondrow.secondcell.an2gr)
+
+
+        self.secondrow.secondcell.an2re = GridLayout(cols = 5)
+
+        self.secondrow.secondcell.an2re.add_widget(IMage(source = self.images['Any']))
+        self.secondrow.secondcell.an2re.add_widget(Label(text = '->'))
+        self.secondrow.secondcell.an2re.add_widget(IMage(source = self.images['Re']))
+        self.secondrow.secondcell.an2re.checkbox = CheckBox(active = False)
+        self.secondrow.secondcell.an2re.add_widget(self.secondrow.secondcell.an2re.checkbox)
+        self.secondrow.secondcell.an2re.button = Button(text = '{}'.format(chr(9679)),
+                                                        font_size = 12,
+                                                        font_name = "FreeSans")
+        self.secondrow.secondcell.an2re.button.checkbox = self.secondrow.secondcell.an2re.checkbox
+        self.secondrow.secondcell.an2re.button.bind(on_press = self.Submit)
+        self.secondrow.secondcell.an2re.add_widget(self.secondrow.secondcell.an2re.button)
+        
+        self.secondrow.secondcell.add_widget(self.secondrow.secondcell.an2re)
+
+
+        self.secondrow.secondcell.an2ye = GridLayout(cols = 5)
+
+        self.secondrow.secondcell.an2ye.add_widget(IMage(source = self.images['Any']))
+        self.secondrow.secondcell.an2ye.add_widget(Label(text = '->'))
+        self.secondrow.secondcell.an2ye.add_widget(IMage(source = self.images['Ye']))
+        self.secondrow.secondcell.an2ye.checkbox = CheckBox(active = False)
+        self.secondrow.secondcell.an2ye.add_widget(self.secondrow.secondcell.an2ye.checkbox)
+        self.secondrow.secondcell.an2ye.button = Button(text = '{}'.format(chr(9679)),
+                                                        font_size = 12,
+                                                        font_name = "FreeSans")
+        self.secondrow.secondcell.an2ye.button.checkbox = self.secondrow.secondcell.an2ye.checkbox
+        self.secondrow.secondcell.an2ye.button.bind(on_press = self.Submit)
+        self.secondrow.secondcell.an2ye.add_widget(self.secondrow.secondcell.an2ye.button)
+        
+        self.secondrow.secondcell.add_widget(self.secondrow.secondcell.an2ye)
+
+
+        self.secondrow.secondcell.an2pu = GridLayout(cols = 5)
+
+        self.secondrow.secondcell.an2pu.add_widget(IMage(source = self.images['Any']))
+        self.secondrow.secondcell.an2pu.add_widget(Label(text = '->'))
+        self.secondrow.secondcell.an2pu.add_widget(IMage(source = self.images['Pu']))
+        self.secondrow.secondcell.an2pu.checkbox = CheckBox(active = False)
+        self.secondrow.secondcell.an2pu.add_widget(self.secondrow.secondcell.an2pu.checkbox)
+        self.secondrow.secondcell.an2pu.button = Button(text = '{}'.format(chr(9679)),
+                                                        font_size = 12,
+                                                        font_name = "FreeSans")
+        self.secondrow.secondcell.an2pu.button.checkbox = self.secondrow.secondcell.an2pu.checkbox
+        self.secondrow.secondcell.an2pu.button.bind(on_press = self.Submit)
+        self.secondrow.secondcell.an2pu.add_widget(self.secondrow.secondcell.an2pu.button)
+        
+        self.secondrow.secondcell.add_widget(self.secondrow.secondcell.an2pu)
+
+
+        self.secondrow.secondcell.an2br = GridLayout(cols = 5)
+
+        self.secondrow.secondcell.an2br.add_widget(IMage(source = self.images['Any']))
+        self.secondrow.secondcell.an2br.add_widget(Label(text = '->'))
+        self.secondrow.secondcell.an2br.add_widget(IMage(source = self.images['Br']))
+        self.secondrow.secondcell.an2br.checkbox = CheckBox(active = False)
+        self.secondrow.secondcell.an2br.add_widget(self.secondrow.secondcell.an2br.checkbox)
+        self.secondrow.secondcell.an2br.button = Button(text = '{}'.format(chr(9679)),
+                                                        font_size = 12,
+                                                        font_name = "FreeSans")
+        self.secondrow.secondcell.an2br.button.checkbox = self.secondrow.secondcell.an2br.checkbox
+        self.secondrow.secondcell.an2br.button.bind(on_press = self.Submit)
+        self.secondrow.secondcell.an2br.add_widget(self.secondrow.secondcell.an2br.button)
+        
+        self.secondrow.secondcell.add_widget(self.secondrow.secondcell.an2br)
+
+
+        self.secondrow.secondcell.an2sk = GridLayout(cols = 5)
+
+        self.secondrow.secondcell.an2sk.add_widget(IMage(source = self.images['Any']))
+        self.secondrow.secondcell.an2sk.add_widget(Label(text = '->'))
+        self.secondrow.secondcell.an2sk.add_widget(IMage(source = self.images['Sk']))
+        self.secondrow.secondcell.an2sk.checkbox = CheckBox(active = False)
+        self.secondrow.secondcell.an2sk.add_widget(self.secondrow.secondcell.an2sk.checkbox)
+        self.secondrow.secondcell.an2sk.button = Button(text = '{}'.format(chr(9679)),
+                                                        font_size = 12,
+                                                        font_name = "FreeSans")
+        self.secondrow.secondcell.an2sk.button.checkbox = self.secondrow.secondcell.an2sk.checkbox
+        self.secondrow.secondcell.an2sk.button.bind(on_press = self.Submit)
+        self.secondrow.secondcell.an2sk.add_widget(self.secondrow.secondcell.an2sk.button)
+        
+        self.secondrow.secondcell.add_widget(self.secondrow.secondcell.an2sk)
